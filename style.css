@@ -1,0 +1,195 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo elegante */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #e3f2fd, #ffffff);
+    display: flex;
+    flex-direction: column;
+    color: #212529;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+}
+
+/* Contenido principal */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Banner */
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 15px;
+    background: linear-gradient(135deg, #ff9800, #ff5722, #e91e63); /* degradado llamativo naranja → rojo → rosado */
+    border-bottom: 2px solid #c2185b;
+}
+
+.main-title {
+    font-size: 2.3rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 700;
+    color: #ffffff; /* ✅ texto blanco para contraste */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Sección de entrada */
+.input-section {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px; /* ✅ menos padding */
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #495057;
+    margin: 10px 0; /* ✅ menos margen */
+    text-align: center;
+}
+
+/* Contenedores de entrada */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 15px; /* ✅ menos espacio arriba */
+    margin-bottom: 10px; /* ✅ reduce espacio antes de botones */
+}
+
+.input-name {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #adb5bd;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+    color: #212529;
+}
+
+/* Botones base */
+button {
+    padding: 12px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+/* Botón Añadir */
+.button-add {
+    background-color: #e9ecef;
+    color: #212529;
+    border: 1px solid #adb5bd;
+    border-radius: 0 6px 6px 0;
+}
+
+.button-add:hover {
+    background-color: #dee2e6;
+}
+
+/* Contenedor de botones principales */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; /* ✅ menos separación lateral */
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px; /* ✅ reduce espacio arriba */
+    justify-content: center;
+}
+
+/* Botones de acción (sortear y reiniciar) */
+.button-draw, .button-new {
+    flex: 1;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Botón sortear */
+.button-draw {
+    color: #ffffff;
+    background-color: #1976d2;
+}
+
+.button-draw:hover {
+    background-color: #0d47a1;
+}
+
+/* Botón reiniciar */
+.button-new {
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+.button-new:disabled {
+    background-color: #ced4da;
+    color: #495057;
+}
+
+.button-new:hover:enabled {
+    background-color: #495057;
+}
+
+/* Ajuste de imágenes en botones */
+.button-draw img,
+.button-new img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: #212529;
+    font-size: 1rem;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.result-list {
+    margin-top: 12px;
+    color: #343a40;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
