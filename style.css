@@ -30,8 +30,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px 20px 15px;
-    background: linear-gradient(135deg, #ff9800, #ff5722, #e91e63); /* degradado llamativo naranja → rojo → rosado */
-    border-bottom: 2px solid #c2185b;
+    background-color: #27ae60; /* Verde esmeralda */
+    border-bottom: 2px solid #1e8449;
 }
 
 .main-title {
@@ -193,3 +193,4 @@ ul {
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
 }
+
