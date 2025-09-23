@@ -9,21 +9,15 @@ El juego consiste en:
 3. Realizar el sorteo de manera aleatoria para encontrar el "amigo secreto".  
 4. Reiniciar el juego para volver a empezar.  
 
-Este proyecto fue creado con fines prácticos y educativos, aplicando conceptos básicos de **desarrollo web** (estructuración con HTML, estilos responsivos con CSS y lógica con JavaScript).  
-
 ## 🛠️ Tecnologías utilizadas  
-- **HTML5** → estructura del proyecto  
-- **CSS3** → diseño minimalista y paleta de colores clásica  
-- **JavaScript (ES6)** → lógica del sorteo y manejo de la lista de amigos  
+- **HTML5** → Estructura del proyecto  
+- **CSS3** → Diseño minimalista y una paleta de colores clásica  
+- **JavaScript** → lógica del sorteo y manejo de la lista de amigos  
 
 ## 🎨 Características principales  
-✅ Diseño limpio y minimalista con tipografía moderna  
+✅ Diseño limpio y minimalista 
 ✅ Fondo en degradado y encabezado llamativo  
-✅ Botones alineados y con íconos centrados  
 ✅ Sorteo aleatorio totalmente funcional  
-✅ Compatible con dispositivos móviles  
 
-## 🚀 Cómo usarlo  
-1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/tuusuario/amigo-secreto.git
+
+
